@@ -1,0 +1,101 @@
+body{
+    background: #333333;
+    color: #fff;
+}
+.navbar{
+    border-bottom:5px solid #1175A7;
+   background: #202324;
+   opacity: 0.7;
+}
+#home-section{
+    background: url("../img/10.jpeg") no-repeat center top;
+    min-height: 900px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#home-section .dark-overlay{
+    background: rgba(0, 0, 0, 0.7);
+    min-height: 900px;
+}
+#home-section .inner-home{
+    padding-top: 200px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+#home-section .inner-home ul li{
+    display: inline-block;
+    
+}
+#home-section .inner-home ul li a{
+    padding: 15px;
+    background: #1E1E1E;
+    border-radius: 50%;
+    opacity: 0.9;
+    margin: 1px;
+    color: #fff;
+}
+#home-section .inner-home ul li a:hover{
+    background: blue;
+    color: #fff;
+}
+#about-main-section .img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    margin-left: 110px;
+}
+#about-main-section .h{
+    font-size: 30px;
+    margin-top: 20px;
+}
+#about-main-section .lead{
+    width: 450px;
+    text-align: justify;
+    margin-left: 70px;
+}
+#services-main-section ul{
+  list-style: none;
+}
+#services-main-section ul li a{
+    color: #fff;
+   font-size: 17px;
+    margin-left: 20px;
+}
+#services-main-section .img-2{
+    width: 700px;
+    height: 350px;
+}
+#services-main-section ul li{
+    margin-top: 40px;
+}
+#services-head-section{
+   background-color: blue;
+   opacity: 0.7;
+}
+#protfolio-head-section{
+    background-color: blueviolet;
+}
+#protfolio-main-section{
+    background: url("../img/img2.jpg") no-repeat center top;
+    min-height: 600px;
+    background-size: cover;
+  
+    
+}
+
+#protfolio-main-section .home{
+    padding-top: 200px;
+    padding-bottom: 50px;
+    text-align: center;
+    
+}
+#protfolio-main-section .home{
+    display: inline-block;
+}
+#contact-main-section .img-4{
+    width: 500px;
+    height: 350px;
+}
+#contact-main-section .card{
+    opacity: 0.8;
+}
